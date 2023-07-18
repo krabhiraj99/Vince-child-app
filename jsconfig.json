@@ -3,7 +3,7 @@
   "allowJs": true,
     "baseUrl": "..",
     "paths": {
-      "@/*": ["Vince-child-app/*"]
+      "@/*": ["Vince-parent-app/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
