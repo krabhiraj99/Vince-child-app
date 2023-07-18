@@ -13,7 +13,7 @@ export default defineNuxtModule({
     console.log("options before>>", nuxt.options.plugins);
     const source = "src";
 
-    addPlugin(path.resolve(__dirname, source + "/plugins/kendoui.js"));
+    addPlugin(path.resolve(__dirname, source + "/plugins/kendoui.js")); // comment this while using kendo plugin from parent app
     extendPages((pages) => {
       // Add /test page
       appRoutes.default.forEach((r) => {
