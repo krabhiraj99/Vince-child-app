@@ -3,7 +3,7 @@
   "allowJs": true,
     "baseUrl": "..",
     "paths": {
-      "@/*": ["demo-nuxt/*"]
+      "@/*": ["Vince-child-app/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
