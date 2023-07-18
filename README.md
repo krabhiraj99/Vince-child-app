@@ -45,7 +45,7 @@ Example:
 ...
 ```
 
-### Generating routes in `campaign` app
+### Generating routes in `Vince-Child-App` app
 
 Run the below script in the `Vince-child-app` folder.
 ```powershell
