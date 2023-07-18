@@ -56,7 +56,7 @@ npm run build-route
 
 The app can be only started and executed in Vince Live application, so to run and debug the app we need to follow the below steps:
 
-1. Goto `vince-live-ui`
+1. Goto `vince-parent-app`
 2. Run `npm run dev`
 3. Edit your code in the app repository, any changed files will automatically update the VL UI web page 
 
