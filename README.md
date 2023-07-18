@@ -19,22 +19,6 @@ You need to clone the `Vince-parent-app` repository and keep it adjacent to the 
 ```
 
 
-### App execution entry point
-For your app to be loaded correctly, you need to follow the below steps:
-
-1. Ensure that the Main file in the package json is configured
-
-`package.json`
-```json
-{
-  "name": "@vincesoftware/apps-plantagen-campaign",
-  "version": "0.1.32",
-  "main": "main.js", // important to give this entry point
-  ---
-  ---
-}
-```
-
 
 ### Configuring the Vince-child-app app in Vince-parent application.
 
