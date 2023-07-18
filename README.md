@@ -1,4 +1,4 @@
-# Plantagen Campaign
+# Vince Child App
 
 This repository houses the Child application, designed for seamless integration with the `parent-app` project using the Nuxt.js module system. This dynamic loading allows for efficient dependency management and modular architecture.
 
