@@ -1,13 +1,35 @@
 {
   "name": "demo-child",
   "version": "0.1.0",
+  "main": "main.js",
   "private": true,
+  "author": "Abhiraj Kumar",
+  "vinceLiveApp": {
+    "name": "demo-test",
+    "basePath": "apps"
+  },
+  "files": [
+    "dist/**/*",
+    "routes.json",
+    "main.js"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build-route": "node .build/routes.js",
+    "build-app": "node .build/build.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@nuxt/kit": "^3.6.3",
+    "@progress/kendo-theme-default": "^6.6.0",
+    "@progress/kendo-vue-animation": "^3.11.1",
+    "@progress/kendo-vue-buttons": "^3.11.1",
+    "@progress/kendo-vue-dialogs": "^3.11.1",
+    "@progress/kendo-vue-dropdowns": "^3.11.1",
+    "@progress/kendo-vue-grid": "^3.11.1",
+    "@progress/kendo-vue-inputs": "^3.11.1",
+    "@progress/kendo-vue-layout": "^3.11.1",
+    "@progress/kendo-vue-notification": "^3.11.1",
+    "@progress/kendo-vue-popup": "^3.11.1",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
