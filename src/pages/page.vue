@@ -2,9 +2,7 @@
   <div>
     <k-grid :data-items="gridData" :columns="gridColumns">
       <template v-slot:ageTemp="{ props }">
-        <td>
-          {{ props.dataItem }}
-        </td>
+        <td>{{ props.dataItem.age + 29 }}</td>
       </template>
     </k-grid>
   </div>
