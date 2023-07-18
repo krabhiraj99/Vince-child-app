@@ -24,7 +24,7 @@ You need to clone the `Vince-parent-app` repository and keep it adjacent to the 
 
 Once the `Vince-child-app` is cloned we need to configure the `Vince-parent-app` folder to load the module from local.
 
-1. Goto `vince-live-ui/nuxt.config.js` and scroll to `modules` section where you can define the nuxt module dependency.
+1. Goto `vince-parent-app/nuxt.config.js` and scroll to `modules` section where you can define the nuxt module dependency.
 2. Copy the full folder path of the `campaign` app and paste it as an entry to the modules array.
 3. Comment / disable the dependency of the `campaign` app provided via `npm`.
 
