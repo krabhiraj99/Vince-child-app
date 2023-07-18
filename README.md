@@ -54,10 +54,10 @@ npm run build-route
 
 ### Running locally
 
-The app can be only started and executed in Vince Live application, so to run and debug the app we need to follow the below steps:
+The app can be only started and executed in Vince Parent application, so to run and debug the app we need to follow the below steps:
 
 1. Goto `vince-parent-app`
 2. Run `npm run dev`
-3. Edit your code in the app repository, any changed files will automatically update the VL UI web page 
+3. Edit your code in the Vince-Child-App repository, any changed files will automatically update the Vince-parent-app UI web page 
 
 <br>
