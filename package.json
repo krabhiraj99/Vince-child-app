@@ -20,16 +20,6 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.6.3",
-    "@progress/kendo-theme-default": "^6.6.0",
-    "@progress/kendo-vue-animation": "^3.11.1",
-    "@progress/kendo-vue-buttons": "^3.11.1",
-    "@progress/kendo-vue-dialogs": "^3.11.1",
-    "@progress/kendo-vue-dropdowns": "^3.11.1",
-    "@progress/kendo-vue-grid": "^3.11.1",
-    "@progress/kendo-vue-inputs": "^3.11.1",
-    "@progress/kendo-vue-layout": "^3.11.1",
-    "@progress/kendo-vue-notification": "^3.11.1",
-    "@progress/kendo-vue-popup": "^3.11.1",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },

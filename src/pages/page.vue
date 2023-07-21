@@ -1,5 +1,9 @@
 <template>
   <div>
+    <!-- <k-dropdownlist
+        :data-items='sports'
+        :default-item="'Select sport ...'"
+    ></k-dropdownlist> -->
     <k-grid :data-items="gridData" :columns="gridColumns">
       <template v-slot:ageTemp="{ props }">
         <td>{{ props.dataItem.age + 29 }}</td>
@@ -12,7 +16,12 @@
 export default {
   layout: "mitest-layout",
   name: "demo-table",
-  //
+  
+  // components: {
+  //     'k-grid': window.KendoVueGrid.Grid,
+  //     'k-dropdownlist': window.KendoVueDropdowns.DropDownList,
+  //     'k-input':window.KendoVueInputs.Input,
+  //   },
 
   data() {
     return {
@@ -26,6 +35,8 @@ export default {
         { field: "id", cell: "ageTemp", title: "Age" },
         { field: "name", title: "Name" },
       ],
+      sports: [ 'Basketball', 'Football', 'Tennis', 'Volleyball' ],
+
     };
   },
 };
